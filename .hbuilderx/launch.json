@@ -1,0 +1,13 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+            "openVueDevtools" : true,
+            "type" : "uni-app:h5"
+        },
+        {
+            "playground" : "custom",
+            "type" : "uni-app:app-android"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "ly-curriculumtable",
+    "displayName": "curriculumtable—课程表",
+    "version": "0.008",
+    "description": "基于 阿赖作者的timetable课程表二次开发     注意：兼容性未测试过！！该插件持续更新",
+    "keywords": [
+        "课程表，学生课程表，curriculumtable"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    },
+    "dependencies": {
+        "jsencrypt": "^3.3.2"
+    }
+}

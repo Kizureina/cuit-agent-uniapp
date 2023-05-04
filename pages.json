@@ -1,0 +1,38 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "CUIT课表"
+			}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CUIT-Agent",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}	
+	// "tabBar": {
+	// 	"color": "#ccc",
+	// 	"selectedColor": "#333",
+	// 	"backgroundColor": "#fff",
+	//     "list": [{
+	//       "pagePath": "pages/index/index",
+	//       "text": "课表"
+	//     },{
+	//       "pagePath": "pages/index/login",
+	//       "text": "登录"
+	//     }]
+	//   }
+}
